@@ -1,0 +1,165 @@
+
+
+const data = [
+  {
+    id:1,
+    img: "https://m.media-amazon.com/images/I/91WDOXmC9IL._UL1500_.jpg",
+    title: "Nylon Jeans",
+    reviews: "30",
+    prevPrice: "$140,00",
+    newPrice: "200",
+    company: "gucci",
+    category: "Jeans",
+  },
+  {
+    id:4,
+    img: "./images/shops/img2.jpg",
+    title: "Frok",
+     
+    reviews: "45",
+    prevPrice: "$140,00",
+    newPrice: "200",
+    company: "Frok",
+    color: "black",
+    category: "Allen Solly",
+  },
+  {
+    id:2,
+    img: "https://m.media-amazon.com/images/I/71dliI0Kf7L._AC_UL600_FMwebp_QL65_.jpg",
+    title: "Nylon Jeans",
+    reviews: "30",
+    prevPrice: "$140,00",
+    newPrice: "200",
+    company: "gucci",
+    category: "Jeans",
+  },
+
+  {
+    id:3,
+    img: "https://m.media-amazon.com/images/I/61HGW82EsYS._AC_UL600_FMwebp_QL65_.jpg",
+    title: "Nylon Jeans",
+    reviews: "30",
+    prevPrice: "$140,00",
+    newPrice: "200",
+    company: "Being Human",
+    category: "Jeans",
+  },
+  {
+    id:4,
+    img: "./images/shops/img1.webp",
+    title: "Frok",
+     
+    reviews: "45",
+    prevPrice: "$140,00",
+    newPrice: "200",
+    company: "Frok",
+    color: "black",
+    category: "Being Human",
+  },
+  {
+    id:5,
+    img: "https://m.media-amazon.com/images/I/41M54ztS6IL._AC_SY625._SX._UX._SY._UY_.jpg",
+    title: "Flat Slip On Pumps",
+     
+    reviews: "40",
+    prevPrice: "$140,00",
+    newPrice: "200",
+    company: "Allen Solly",
+    color: "green",
+    category: "Shoes",
+  },
+  {
+    id:1,
+    img: "https://m.media-amazon.com/images/I/91WDOXmC9IL._UL1500_.jpg",
+    title: "Nylon Jeans",
+    reviews: "30",
+    prevPrice: "$140,00",
+    newPrice: "200",
+    company: "gucci",
+    category: "Jeans",
+  },
+  {
+    id:6,
+    img: "https://m.media-amazon.com/images/I/71zKuNICJAL._AC_UX625_.jpg",
+    title: "Knit Ballet Flat",
+     
+    reviews: "40",
+    prevPrice: "$140,00",
+    newPrice: "50",
+    company: "Gucci",
+    color: "black",
+    category: "Shoes",
+  },
+
+  {
+    id:7,
+    img: "https://m.media-amazon.com/images/I/61V9APfz97L._AC_UY695_.jpg",
+    title: "Loafer Flats",
+     
+    reviews: "40",
+    prevPrice: "$140,00",
+    newPrice: "50",
+    company: "Being Human",
+    color: "white",
+    category: "Shoes",
+  },
+  {
+    id:1,
+    img: "https://m.media-amazon.com/images/I/9198yAcm9oL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "Nylon Jeans",
+    reviews: "35",
+    prevPrice: "$140,00",
+    newPrice: "200",
+    company: "gucci",
+    category: "Jeans",
+  },
+  {
+    img: "https://m.media-amazon.com/images/I/71VaQ+V6XnL._AC_UY695_.jpg",
+    title: "Nike Zoom Freak",
+     
+    reviews: "40",
+    prevPrice: "$140,00",
+    newPrice: "200",
+    company: "gucci",
+    color: "green",
+    category: "Shoes",
+  },
+  {
+    id:4,
+    img: "./images/shops/OIP.jpg",
+    title: "Multi color Frok",
+     
+    reviews: "45",
+    prevPrice: "$140,00",
+    newPrice: "200",
+    company: "Frok",
+    color: "black",
+    category: "Allen Solly",
+  },
+  {
+    id:9,
+    img: "https://m.media-amazon.com/images/I/61-cBsLhJHL._AC_UY695_.jpg",
+    title: "Nike Men's Sneaker",
+     
+    reviews: "20",
+    prevPrice: "$140,00",
+    newPrice: "200",
+    company: "Allen solly",
+    color: "blue",
+    category: "Shoes",
+  },
+  
+  {
+    id:1,
+    img: "https://images-eu.ssl-images-amazon.com/images/I/81yNWxYnGaL._AC_UL160_SR160,160_.jpg",
+    title: "Nylon Jeans",
+    reviews: "30",
+    prevPrice: "$140,00",
+    newPrice: "200",
+    company: "Being Human",
+    category: "Jeans",
+  },
+
+];
+
+export default data;
