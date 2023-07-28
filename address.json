@@ -1,0 +1,51 @@
+{
+  "orders": [
+    {
+      "name": "Shubham",
+      "contactNumber": "7004410059",
+      "address": "Boys hostel 2",
+      "address2": "Silicon institute of technology",
+      "city": "Bhubaneshwar",
+      "state": "Odisha",
+      "zip": "751024",
+      "payment_status": false,
+      "oid": "",
+      "termsChecked": true,
+      "id": 1
+    }
+  ],
+  "items": [
+    [
+      {
+        "id": 10,
+        "name": "pant",
+        "price": "199",
+        "qty": 1
+      },
+      {
+        "id": 14,
+        "name": "Cotton Night Dress",
+        "price": "180",
+        "qty": 1
+      },
+      {
+        "id": 13,
+        "name": "Nigth dress",
+        "price": "360",
+        "qty": 1
+      },
+      {
+        "id": 21,
+        "name": "Sun glasses",
+        "price": "300",
+        "qty": 1
+      }
+    ]
+  ],
+  "payment_stat": [
+    {
+      "message": "Payment successful",
+      "id": 1
+    }
+  ]
+}
