@@ -10,6 +10,16 @@ import Footer from "./common/footer/Footer"
 import Sdata from "./components/shops/Sdata"
 import Sdata1 from "./components/allproduct/Sdata"
 
+import FinalPaymentPage from "./components/payment/FinalPaymentPage"
+import CheckoutPage from "./components/payment/checkout"
+import PaymentForm from "./components/payment/PaymentForm"
+import OtpForm from "./components/payment/opt"
+
+import Signin from "./signin/signin";
+import Signup from "./signup/signup"
+import Signout from "./signout/signout";
+
+
 //some chngae
 //import Naviga from "./common/header/Search";
 import Navigation from "./Navigation/Nav";
@@ -135,6 +145,21 @@ function App() {
           <Products result={result} addToCart={addToCart}/>
           <Shop  addToCart={addToCart} shopItems={shopItems}/>
           </Route>
+          <Route path="/checkout" component={CheckoutPage} />
+          <Route path="/final-payment" component={FinalPaymentPage} />
+          <Route exact path="/paymentForm" component={PaymentForm}/>
+
+          <Route exact path="/otpForm" component={OtpForm} />
+
+          <Route path='/signin' exact>
+            <Signin/>
+           </Route>
+           <Route path='/signup' exact>
+            <Signup/>
+           </Route>
+           <Route exact path="/signout" component={Signout} />
+
+
         </Switch>
         <Footer />
       </Router>
