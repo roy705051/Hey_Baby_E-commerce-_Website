@@ -1,0 +1,33 @@
+/* styles.css */
+
+.address{
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 25%;
+}
+
+.payMethod{
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 25%;
+}
+
+.btn-proceed-enabled {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+
+  .btn-proceed-disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
+  .successToast{
+    margin-left: 70%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
