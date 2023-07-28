@@ -1,0 +1,159 @@
+.checkout-alert{
+  margin-bottom: 3%;
+  text-align: center;
+}
+.checkout-button{
+  margin-left: 2%;
+}
+.cart-items {
+  background: #f6f9fc;
+  height: auto;
+  padding: 50px 0;
+}
+
+.cart-items .cart-details {
+  width: 65%;
+}
+
+.cart-items .cart-total {
+  width: 30%;
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 130px;
+}
+.cart-list {
+  background: white;
+  margin-top: 30px;
+}
+.cart-items .img {
+  width: 150px;
+  height: 150px;
+}
+.cart-items img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.cart-items .cart-details h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.cart-items .cart-details h4 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 50px;
+  color: grey;
+}
+.cart-items h4 span {
+  color: #e94560;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.removeCart {
+  background: none;
+  font-size: 25px;
+  text-align: right;
+  margin-right: 10px;
+}
+.cartControl {
+  margin-top: 50px;
+}
+.cartControl button {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.incCart {
+  background: none;
+  border: 1px solid rgb(3 0 71 / 9%);
+  color: #e94560;
+}
+.desCart {
+  background: #f6f9fc;
+}
+.cart-total h4 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.cart-total h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #e94560;
+}
+.cart-total h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(3 0 71 / 9%);
+  padding-bottom: 10px;
+  color: #e94560;
+}
+.no-items {
+  color: #e94560;
+  font-size: 18px;
+  margin-top: 30px;
+  height: 130px;
+}
+
+
+
+/* Assuming you already have CSS for cart-items, container, d_flex, product, totalprice, and checkout-button */
+
+/* Responsive CSS for parent-container, child1, and child2 */
+/* Assuming you already have CSS for cart-items, container, d_flex, product, totalprice, and checkout-button */
+
+/* Responsive CSS for parent-container, child1, and child2 */
+.parent-container {
+  display: flex;
+  flex-direction: column; /* Default to column layout for all screen sizes */
+  align-items: center;
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 768px) {
+  .parent-container {
+    flex-direction: row; /* Switch to row layout for larger screens */
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow the children to wrap to new lines if space is insufficient */
+  }
+
+  .child1 {
+    flex-basis: 80%;
+    margin-left: 0;
+  }
+  .child2 {
+    flex-basis: 63%;
+    margin-left: 0; /* Adjust the flex-basis value to control their width */
+  }
+}
+
+/* Style for .child1 (cart-details) */
+.child1 {
+  /* Your existing styles for .cart-details */
+  width: 100%; /* Full width by default for all screen sizes */
+  margin-bottom: 20px; /* Add spacing between child1 and child2 */
+}
+
+/* Style for .child2 (cart-total) */
+.child2 {
+  /* Your existing styles for .cart-total */
+  width: 100%; /* Full width by default for all screen sizes */
+}
+
+/* Style for .totalprice (inside .cart-total) and .checkout-button */
+.totalprice,
+.checkout-button {
+  width: 100%; /* Full width for all screen sizes */
+  margin-top: 10px; /* Add some spacing between .totalprice and .checkout-button */
+}
+
+/* Adjust image size to fit properly */
+.cart-items .img {
+  max-width: 150px; /* Set a maximum width for the image */
+  max-height: 150px; /* Set a maximum height for the image */
+}
+
+/* Media query for small screens */
+
