@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Hey Baby!
+Hey Baby using React-app and javascript and json server
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---->This project will help our users to buy awesome products for their baby according to their requirements and latest fashion.
 
-## Available Scripts
+# Welcome page
 
-In the project directory, you can run:
+# First, there is an index Page of the Hey Baby! where a person can sign up or sign in and add their products to cart.
 
-### `npm start`
+#Screenshot of the first page :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Web capture_29-7-2023_62844_localhost](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/de873141-e423-4b01-abcf-a31c69fff9cd)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Sample code:
+![Screenshot 2023-07-29 063817](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/a135f2a6-ede0-41f4-a622-697c69a36d46)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Sign up page
 
-### `npm run build`
+We had made sign in page through which we will be taking data to json server and save the data for further reference.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Screenshot:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot 2023-07-29 063133](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/dd41ac32-f8f2-4fb4-a4e4-2788928b11f3)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Sign in page
 
-### `npm run eject`
+We have login page in which person can sign in and use our website.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Screenshot:
+![Screenshot 2023-07-29 063104](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/0ffd8f98-9ee0-4c8f-862f-266f51166806)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Sample code:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Screenshot 2023-07-29 064059](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/c6791314-6941-48e9-a359-6086eee1734e)
 
-## Learn More
+# All product
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In this page we are showing all the product where person can filter and but that product according to their requirements.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Screenshot:
 
-### Code Splitting
+![Web capture_29-7-2023_62922_localhost](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/eaf38816-9d15-4c04-b3f3-66d898ebe974)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+# Contact page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This page helps our users to effortlessly connected with us, we are available 24*7 for their service and would be happy to serve you.
 
-### Making a Progressive Web App
+Screenshort:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Screenshot 2023-07-29 063121](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/7b895eda-6a6b-4057-8d1c-2525e5a8705a)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# The cart page
+the page use to collect the product that user what to buy. The user will only be able to checkout if the cart is not empty and if user is not signedin the user will be redirected to signin page
 
-### Deployment
+Screenshot:
+![Screenshot 2023-07-29 063217](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/4e8576ce-0dff-4d34-8ba4-423a6bdaffa5)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+# Address form and payment gateway for checkout has also been made
+## take information  about shipping
+#screenShort
+![Screenshot 2023-07-29 063240](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/7e6a5b98-46f8-45a2-be86-66ad011288c2)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## payment method 
+#screenShort
+![Screenshot 2023-07-29 063308](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/cf8ab7ff-c7ae-4962-80bc-9105f71d1d79)
+
+## card details--->
+#screenShort
+![Screenshot 2023-07-29 063318](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/314eb563-88bd-495c-9d54-ba30bbbca3c9)
+
+## payment succcesfull-->    after that the success toast will come after after few seconds it will redirect the user to the homepage and update the items bought ,payment status and ordered items in address.json file
+#screenShort
+
+![Screenshot 2023-07-29 063334](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/27515cd7-994a-4a4a-a009-e76f33db9e3b)
+
+
+# folder Structure
+![Screenshot 2023-07-29 070116](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/2ced6887-9934-43c6-ae83-8ba6e6cee4ca)
+
+# Do before running  the program
+1st install--> npm start
+2nd-->npm install -g json-server
+3nd-->npm install @mui/joy @emotion/react @emotion/styled
+4nd-->npm install @mui/icons-material
+5nd-->npm install concurrently --save-dev
+6nd-->add in pakage.json in script-->"dev": "concurrently \"json-server --watch data.json --port 8080\" \"json-server --watch address.json --port 3001\""
+7nd-->npm run dev
+8nd-->another terminal -->npm start
+
+
+## Thank You
+
+# (by Team Code Breaker)
