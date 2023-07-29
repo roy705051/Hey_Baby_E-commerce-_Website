@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "name": "aniket",
+      "email": "ani78@gmail.com",
+      "password": "123456",
+      "id": "1"
+    },
+    {
+      "name": "rahul",
+      "email": "ra69@gmail.com",
+      "password": "123789",
+      "id": "2"
+    },
+    {
+      "name": "shubham",
+      "email": "shu36@gmail.com",
+      "password": "123456789",
+      "id": "3"
+    },
+    {
+      "name": "sama",
+      "email": "sama123@gmail.com",
+      "password": "sama123",
+      "id": 4
+    },
+    {
+      "name": "xyz",
+      "email": "xyz123@gmail.com",
+      "password": "xyz123",
+      "id": 5
+    },
+    {
+      "name": "abc",
+      "email": "abc1010@gmail.com",
+      "password": "abc123abc",
+      "id": 6
+    },
+    {
+      "name": "hello",
+      "email": "hello123@gmail.com",
+      "password": "hello",
+      "id": 7
+    },
+    {
+      "name": "welcome",
+      "email": "wel123@gmail.com",
+      "password": "wel12345",
+      "id": 8
+    },
+    {
+      "name": "kumar",
+      "email": "kumar123@gmail.com",
+      "password": "kumar123",
+      "id": 9
+    },
+    {
+      "name": "project",
+      "email": "pro123@gmail.com",
+      "password": "123456",
+      "id": 10
+    },
+    {
+      "name": "today",
+      "email": "today123@gmail.com",
+      "password": "today123",
+      "id": 11
+    },
+    {
+      "name": "dsa",
+      "email": "dsa@123gmail.com",
+      "password": "dsa123",
+      "id": 12
+    },
+    {
+      "name": "java",
+      "email": "java123@gmail.com",
+      "password": "java123",
+      "id": 13
+    },
+    {
+      "name": "web",
+      "email": "web123@gmail.com",
+      "password": "web123",
+      "id": 14
+    },
+    {
+      "name": "game",
+      "email": "game123@gmail.com",
+      "password": "game123",
+      "id": 15
+    },
+    {
+      "name": "child",
+      "email": "child123@gmail.com",
+      "password": "child123",
+      "id": 16
+    },
+    {
+      "name": "final",
+      "email": "final456@gmail.com",
+      "password": "final123",
+      "id": 17
+    }
+  ]
+}
