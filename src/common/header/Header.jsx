@@ -5,6 +5,7 @@ import Search from "./Search"
 import Navbar from "./Navbar"
 
 const Header = ({ CartItem }) => {
+
   return (
     <>
       <Head />

@@ -2,13 +2,14 @@ import React, { useState } from "react"
 import { Link } from "react-router-dom"
 const Navbar = () => {
   // Toogle Menu
-  const [MobileMenu, setMobileMenu] = useState(false)
+  const [MobileMenu, setMobileMenu] = useState(false);
+  const token = localStorage.getItem("token");
   return (
     <>
       <header className='header'>
         <div className='container d_flex'>
           <div className='catgrories d_flex'>
-            <span class='fa-solid fa-border-all'></span>
+            <span  className='fa-solid fa-border-all'></span>
             <h4>
               Categories <i className='fa fa-chevron-down'></i>
             </h4>
@@ -18,23 +19,39 @@ const Navbar = () => {
             <ul className={MobileMenu ? "nav-links-MobileMenu" : "link f_flex capitalize"} onClick={() => setMobileMenu(false)}>
               {/*<ul className='link f_flex uppercase {MobileMenu ? "nav-links-MobileMenu" : "nav-links"} onClick={() => setMobileMenu(false)}'>*/}
               <li>
-                <Link to='/'>home</Link>
+                <Link to='/home'>home</Link>
               </li>
               <li>
                 <Link to='/allproduct'>All product</Link>
               </li>
               <li>
-                <Link to='/track'>track my order</Link>
+                <Link to='/home'>track my order</Link>
               </li>
               <li>
                 <a href="./contact.html">contact</a>
               </li>
-              <li>
-                <Link to='/user'>Sign in</Link>
+              {/* <li>
+                <Link to='/signin'>Sign in</Link>
               </li>
               <li>
-                <Link to='/vendor'>sign up</Link>
-              </li>
+                <Link to='/signup'>sign up</Link>
+              </li> */}
+              {!token && (
+                <>
+                  <li>
+                    <Link to='/signin'>Sign in</Link>
+                  </li>
+                  <li>
+                    <Link to='/signup'>sign up</Link>
+                  </li>
+                </>
+              )}
+              {/* Render "Sign out" option if token is found */}
+              {token && (
+                <li>
+                  <Link to='/signout'>sign out</Link>
+                </li>
+              )}
               
             </ul>
 
@@ -49,3 +66,5 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
