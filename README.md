@@ -1,7 +1,7 @@
 # Hey Baby!
-Hey Baby using React-app and js and json
+Hey Baby using React-app and javascript and json server
 
----->This project will help our users to but therr best product  according to their requirements and intrest fashion.
+---->This project will help our users to buy awesome products for thier baby according to their requirements and latest fashion.
 
 # Welcome page
 
@@ -54,18 +54,18 @@ Screenshort:
 
 
 # The cart page
-the page use to collect the product that user what to buy or add to there whislist
+the page use to collect the product that user what to buy or add to there whislist. The user will only be able to checkout if the cart is not empty and if user is not signed in the user will be redirected to signin page
 
 Screenshot:
 ![Screenshot 2023-07-29 063217](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/4e8576ce-0dff-4d34-8ba4-423a6bdaffa5)
 
 
-# pament gate way also made by us
+# Address form and payment gateway for checkout has also been made
 ## take information  about shipping
 #screenShort
 ![Screenshot 2023-07-29 063240](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/7e6a5b98-46f8-45a2-be86-66ad011288c2)
 
-## payment method
+## payment method 
 #screenShort
 ![Screenshot 2023-07-29 063308](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/cf8ab7ff-c7ae-4962-80bc-9105f71d1d79)
 
@@ -73,7 +73,7 @@ Screenshot:
 #screenShort
 ![Screenshot 2023-07-29 063318](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/314eb563-88bd-495c-9d54-ba30bbbca3c9)
 
-## payment succcesfull-->
+## payment succcesfull-->    after that the success toast will come after after few seconds it will redirect the user to the homepage and update the items bought ,payment status and ordered items in address.json file
 #screenShort
 
 ![Screenshot 2023-07-29 063334](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/27515cd7-994a-4a4a-a009-e76f33db9e3b)
