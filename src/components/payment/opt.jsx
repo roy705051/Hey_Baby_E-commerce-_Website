@@ -44,7 +44,7 @@ const OtpForm = () => {
             console.error("Error posting payment status:", error);
           });
 
-        history.push("/");
+        history.push("/home");
       }, 5000); // (5 seconds)
     }
   }, [paymentSuccess, history]);

@@ -1,0 +1,75 @@
+const Data = {
+  productItems: [
+    {
+      id: 1,
+      discount: 50,
+      cover: "./images/flash/flash-1.png",
+      name: "Shoes",
+      price: 150,
+    },
+    {
+      id: 2,
+      discount: 40,
+      cover: "./images/flash/img2.webp",
+      name: "cotton Shirt",
+      price: 20,
+    },
+    {
+      id: 3,
+      discount: 40,
+      cover: "./images/flash/img1.jpg",
+      name: "Cotton Sleep & Pajamas",
+      price: 200,
+    },
+    {
+      id: 4,
+      discount: 40,
+      cover: "./images/flash/flash-4.png",
+      name: "Smart Watch Black",
+      price: 50,
+    },
+    {
+      id: 5,
+      discount: 50,
+      cover: "./images/flash/img6.jpg",
+      name: "Shirt and Pant",
+      price: 150,
+    },
+    {
+      id: 6,
+      discount: 50,
+      cover: "./images/flash/img3.jpg",
+      name: "Baby 3-Piece",
+      price: 100,
+    },
+    {
+      id: 7,
+      discount: 40,
+      cover: "./images/flash/img4.jpg",
+      name: "Shoes",
+      price: 200,
+    },
+    {
+      id: 8,
+      discount: 50,
+      cover: "./images/flash/img5.jpg",
+      name: "Hoody",
+      price: 100,
+    },
+    {
+      id: 9,
+      discount: 50,
+      cover: "./images/flash/flash-5.png",
+      name: "Sun Glasses",
+      price: 100,
+    },
+    {
+      id: 10,
+      discount: 60,
+      cover: "./images/flash/img7.jpg",
+      name: "Frok",
+      price: 250,
+    },
+  ],
+}
+export default Data
