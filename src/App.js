@@ -130,35 +130,55 @@ function App() {
   return (
     <>
       <Router>
-        <Header CartItem={CartItem} />
+        {/* <Header CartItem={CartItem} /> */}
         <Switch>
-          <Route path='/' exact>
+          <Route path='/home' exact>
+            <Header CartItem={CartItem} />
             <Pages productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
           </Route>
           <Route path='/cart' exact>
+          <Header CartItem={CartItem} />
             <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />
           </Route>
           <Route path='/allproduct' exact>
+          <Header CartItem={CartItem} />
           <Sidebar  handleChange={handleChange} />
           <Navigation query={query} handleInputChange={handleInputChange} />
           <Recommended handleClick={handleClick} />
           <Products result={result} addToCart={addToCart}/>
           <Shop  addToCart={addToCart} shopItems={shopItems}/>
           </Route>
-          <Route path="/checkout" component={CheckoutPage} />
-          <Route path="/final-payment" component={FinalPaymentPage} />
-          <Route exact path="/paymentForm" component={PaymentForm}/>
+          {/* <Router> */}
+          {/* <Header CartItem={CartItem} /> */}
+          {/* <Route path="/checkout" component={CheckoutPage} /> */}
+          <Route path='/checkout' exact>
+            <Header CartItem={CartItem} />
+            <CheckoutPage/>
+           </Route>
+           <Route path='/final-payment' exact>
+            <Header CartItem={CartItem} />
+            <FinalPaymentPage/>
+           </Route>
+           <Route path='/paymentForm' exact>
+            <Header CartItem={CartItem} />
+            <PaymentForm/>
+           </Route>
+          {/* <Route path="/final-payment" component={FinalPaymentPage} />
+          <Route exact path="/paymentForm" component={PaymentForm}/> */}
 
           <Route exact path="/otpForm" component={OtpForm} />
-
+          {/* </Router> */}
           <Route path='/signin' exact>
+          <Header CartItem={CartItem} />
             <Signin/>
            </Route>
            <Route path='/signup' exact>
+           <Header CartItem={CartItem} />
             <Signup/>
            </Route>
+       
            <Route exact path="/signout" component={Signout} />
-
+        
 
         </Switch>
         <Footer />

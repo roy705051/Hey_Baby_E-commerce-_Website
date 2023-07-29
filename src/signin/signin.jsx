@@ -38,7 +38,7 @@ function Signin() {
         const token = JSON.parse(localStorage.getItem("token"));
         console.log(token);
         //Link("/");
-        history.push("/");
+        history.push("/home");
       }
     } 
     catch(err)

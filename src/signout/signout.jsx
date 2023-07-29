@@ -1,32 +1,17 @@
-// import React from "react";
-// import { useEffect } from "react";
-// import { useNavigate } from "react-router-dom";
-// import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
-// import "./signout.css";
 
-// function Signout() {
-//     //const navigate = useNavigate();
-//     const history = useHistory();
-//     useEffect(() => {   
-//         localStorage.removeItem("token", JSON.stringify(Date.now()));
-//         //navigate("/"); 
-//         history.push("/");
-//       }, []);
-// }
-
-// export default Signout;
-import React, { useEffect } from "react";
+import React, { useEffect, useReducer } from "react";
 import { useHistory } from "react-router-dom";
+
+
 
 function Signout() {
   const history = useHistory();
-
   useEffect(() => {
-    
-    localStorage.removeItem("token");
-
-    
-    history.push("/");
+    if (window.confirm('You want to Logout ?')) {
+    const token=localStorage.removeItem("token");
+    history.push("/home"); 
+    console.log("token")
+    }
   }, []);
 
   return (
