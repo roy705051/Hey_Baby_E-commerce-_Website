@@ -1,11 +1,11 @@
 # Hey Baby!
 Hey Baby using React-app and javascript and json server
 
----->This project will help our users to buy awesome products for thier baby according to their requirements and latest fashion.
+---->This project will help our users to buy awesome products for their baby according to their requirements and latest fashion.
 
 # Welcome page
 
-# First, there is an index Page of the Hey Baby! where a person can sign up or sign in and add to cart there product.
+# First, there is an index Page of the Hey Baby! where a person can sign up or sign in and add their products to cart.
 
 #Screenshot of the first page :
 
@@ -37,7 +37,7 @@ Sample code:
 
 # All product
 
-In this page we are showing all the product where person can filter and but thatproduct
+In this page we are showing all the product where person can filter and but that product according to their requirements.
 
 Screenshot:
 
@@ -54,7 +54,7 @@ Screenshort:
 
 
 # The cart page
-the page use to collect the product that user what to buy or add to there whislist. The user will only be able to checkout if the cart is not empty and if user is not signed in the user will be redirected to signin page
+the page use to collect the product that user what to buy. The user will only be able to checkout if the cart is not empty and if user is not signedin the user will be redirected to signin page
 
 Screenshot:
 ![Screenshot 2023-07-29 063217](https://github.com/roy705051/Hey_Baby_E-commerce-_Website/assets/118226807/4e8576ce-0dff-4d34-8ba4-423a6bdaffa5)
@@ -88,7 +88,7 @@ Screenshot:
 3nd-->npm install @mui/joy @emotion/react @emotion/styled
 4nd-->npm install @mui/icons-material
 5nd-->npm install concurrently --save-dev
-6nd-->add in pakage.json in script-->"dev": "concurrently \"json-server --watch data.json --port 8080\" \"json-server --watch address.json --port 3001\"
+6nd-->add in pakage.json in script-->"dev": "concurrently \"json-server --watch data.json --port 8080\" \"json-server --watch address.json --port 3001\""
 7nd-->npm run dev
 8nd-->another terminal -->npm start
 
