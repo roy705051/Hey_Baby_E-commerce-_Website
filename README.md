@@ -2,6 +2,8 @@
 Hey Baby using React-app and javascript and json server
 
 ---->This project will help our users to buy awesome products for their baby according to their requirements and latest fashion.
+# Our website is deployed in netlify
+# Link--> https://hey-baby-ecom.netlify.app/
 
 # Welcome page
 
